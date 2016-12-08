@@ -4,6 +4,8 @@ var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 
 var TodoApp = require('TodoApp');
 
+import './../playground/firebase/index';
+
 // //load foundation 
 // require('style!css!foundation-sites/dist/foundation.min.css');
 $(document).foundation()
